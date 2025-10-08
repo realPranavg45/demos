@@ -83,3 +83,16 @@ footer {
   padding: 10px;
   margin-top: 30px;
 }
+
+/* Style only the dropdown button */
+.dropdown > a {
+  background: #ff9800;   /* orange button */
+  padding: 8px 14px;
+  border-radius: 6px;
+  color: white !important;
+  transition: background 0.3s ease;
+}
+
+.dropdown > a:hover {
+  background: #567777;   /* darker orange on hover */
+}
